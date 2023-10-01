@@ -1,7 +1,9 @@
+import WIP from './components/WIP';
+
 function App() {
   return (
     <div className="App">
-      WIP
+      <WIP />
     </div>
   );
 }
