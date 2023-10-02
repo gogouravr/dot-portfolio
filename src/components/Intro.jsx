@@ -10,7 +10,7 @@ export default function Intro() {
         window.open('/Gourav_Raj_Full_Stack_Developer.pdf', '_blank');
     }
     return (
-        <section className="flex flex-col justify-center">
+        <section className="flex flex-col justify-center mt-16">
             <div className="text-white font-normal text-2xl mt-20 mb-2 opacity-80">
                 👋 Hi, my name is
             </div>
