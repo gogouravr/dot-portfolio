@@ -1,5 +1,6 @@
 import React from 'react';
 import SocialMediaSection from './SocialMediaSection.jsx';
+import config from '../config.json'
 
 export default function Intro() {
     return (
@@ -9,10 +10,10 @@ export default function Intro() {
             </div>
 
             <div className="text-white font-high-l text-7xl text-sky-400/100 opacity-80">
-                Gourav Raj
+                {config['first-name'] + ' ' + config['last-name']}
             </div>
 
-            <div className="text-white font-high-l  text-5xl mt-5 text-2 opacity-50">
+            <div className="text-white font-high-l  text-5xl mt-5 text-2 opacity-50 leading-tight">
                 And I am a Full-Stack Developer
             </div>
             <SocialMediaSection />
