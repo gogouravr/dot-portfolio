@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import SocialMediaSection from './SocialMediaSection.jsx';
 
 export default function Intro() {
     return (
@@ -14,6 +15,7 @@ export default function Intro() {
             <div className="text-white font-high-l  text-5xl mt-5 text-2 opacity-50">
                 And I am a Full-Stack Developer
             </div>
+            <SocialMediaSection />
         </section>
     )
 }
