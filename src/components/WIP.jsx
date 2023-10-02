@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function WIP() {
     return (
-        <div className='text-black text- text-xl text-center hover:bg-sky-700'>WIP</div>
+        <div className='text-white text-9xl text-center font-light mt-11 font-prime'>
+            WIP
+        </div>
     )
 }
