@@ -15,20 +15,20 @@ export default function Intro() {
                 👋 Hi, my name is
             </div>
 
-            <div className="text-white font-high-l text-7xl text-sky-400/100 opacity-80">
+            <div className="text-sky-500 font-high-l text-7xl opacity-90">
                 {config['first-name'] + ' ' + config['last-name']}
             </div>
 
-            <div className="text-white font-high-l  text-5xl mt-3 text-4 opacity-70 leading-tight">
+            <div className="text-white font-high-l  text-5xl mt-3 mb-2 text-4 opacity-60 leading-tight">
                 And I am a Full-Stack Developer
             </div>
 
-            <atricle className='text-white text-2xl font-normal opacity-40 w-3/4'>
+            <atricle className='text-white text-xl font-normal opacity-40 w-3/4'>
                 {config.bio}
             </atricle>
 
             {config.wip &&
-                <span className='text-white text-sm font-sans mt-5 opacity-90'>
+                <span className='text-white text-sm font-sans mt-5 opacity-80'>
                     {config['wip-text'] + " "}
                     <span className='cursor-pointer' onClick={() => window.open(config['project-link'], '_target')}>
                         <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
