@@ -39,8 +39,9 @@ export default function Intro() {
             }
 
             <SocialMediaSection />
-
-            <PrimaryButton text="Résumé" clickHandler={resumeButtonClickHandler}>Résumé</PrimaryButton>
+            <div className="mt-5">
+                <PrimaryButton text="Résumé" clickHandler={resumeButtonClickHandler}>Résumé</PrimaryButton>
+            </div>
         </section>
     )
 }
