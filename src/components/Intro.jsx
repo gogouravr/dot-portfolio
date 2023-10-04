@@ -1,7 +1,7 @@
 import React from 'react';
 import SocialMediaSection from './SocialMediaSection.jsx';
 import config from '../config.json'
-import PrimaryButton from './PrimaryButton.jsx';
+import PrimaryButton from './UI/PrimaryButton.jsx';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
