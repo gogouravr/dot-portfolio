@@ -1,5 +1,5 @@
 // import WIP from './components/WIP';
-import Home from './pages/Home.jsx';
+import Home from './screens/Home.jsx';
 // import BlurMousePointer from './components/BlurMouseCursor.jsx'
 
 function App() {
