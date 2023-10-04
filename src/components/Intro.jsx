@@ -6,9 +6,11 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Intro() {
+
     const resumeButtonClickHandler = () => {
-        window.open('/Gourav_Raj_Full_Stack_Developer.pdf', '_blank');
+        window.open('/resume.pdf', '_blank');
     }
+
     return (
         <section className="flex flex-col justify-center mt-16">
             <div className="text-white font-normal text-2xl mt-20 mb-2 opacity-80">
