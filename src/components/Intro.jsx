@@ -7,9 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Intro() {
 
-    const resumeButtonClickHandler = () => {
-        window.open('/resume.pdf', '_blank');
-    }
 
     return (
         <section className="flex flex-col justify-center mt-10 px-32">
@@ -40,8 +37,8 @@ export default function Intro() {
 
             <SocialMediaSection />
             <div className="mt-8">
-                <PrimaryButton text="Résumé" clickHandler={resumeButtonClickHandler}>Say hello back!</PrimaryButton>
+                <PrimaryButton>Say hello back!</PrimaryButton>
             </div>
-        </section>
+        </section >
     )
 }
