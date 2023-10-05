@@ -37,7 +37,7 @@ export default function Intro() {
 
             <SocialMediaSection />
             <div className="mt-8">
-                <PrimaryButton>Say hello back!</PrimaryButton>
+                <PrimaryButton>Say back hello! </PrimaryButton>
             </div>
         </section >
     )
