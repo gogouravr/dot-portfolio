@@ -12,20 +12,20 @@ export default function Intro() {
     }
 
     return (
-        <section className="flex flex-col justify-center mt-16">
-            <div className="text-white font-normal text-2xl mt-20 mb-2 opacity-80">
+        <section className="flex flex-col justify-center mt-10 px-32">
+            <div className="text-sky-400 font-normal text-2xl mt-20 mb-2">
                 👋 Hi, my name is
             </div>
 
-            <div className="text-sky-500 font-high-l text-7xl opacity-90">
-                {config['first-name'] + ' ' + config['last-name']}
+            <div className="text-slate-300 font-semibold font-high-l text-6xl opacity-90 leading-15">
+                {config['first-name'] + ' ' + config['last-name'] + '.'}
             </div>
 
-            <div className="text-white font-high-l  text-5xl mt-3 mb-2 text-4 opacity-60 leading-tight">
-                And I am a Full-Stack Developer
+            <div className="text-white font-high-l font-bold text-5xl mt-3 mb-3 text-4 opacity-50 leading-tight ">
+                I am a Full-Stack Developer
             </div>
 
-            <atricle className='text-white text-xl font-normal opacity-40 w-3/4'>
+            <atricle className='text-white font-thin text-xl font-sans opacity-85 w-[55%]'>
                 {config.bio}
             </atricle>
 
@@ -39,8 +39,8 @@ export default function Intro() {
             }
 
             <SocialMediaSection />
-            <div className="mt-5">
-                <PrimaryButton text="Résumé" clickHandler={resumeButtonClickHandler}>Résumé</PrimaryButton>
+            <div className="mt-8">
+                <PrimaryButton text="Résumé" clickHandler={resumeButtonClickHandler}>Say hello back!</PrimaryButton>
             </div>
         </section>
     )
