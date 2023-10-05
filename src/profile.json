@@ -7,6 +7,9 @@
         "twitter": "https://twitter.com/DRGGourav",
         "instagram": "https://www.instagram.com/gourav_raj_/"
     },
+    "intros": [
+        "I am a Full-Stack Developer"
+    ],
     "bio": "I've built services from the ground up, developing robust backends and designing captivating UI/UX interfaces.",
     "wip": true,
     "wip-text": "This web app is under work in progress as I work on it during weekends. You can track the project progress at ",
