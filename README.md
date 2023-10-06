@@ -26,11 +26,13 @@ Follow these steps to set up and customize your portfolio website:
    ```bash
    git clone https://github.com/yourusername/dot-portfolio.git
    cd dot-portfolio
+   ```
 
 2. **Install Dependencies**
 
     ```bash
     npm install
+    ```
 
 3. **Edit profile.json**
 
@@ -39,17 +41,23 @@ Follow these steps to set up and customize your portfolio website:
 4. **Run Locally**
 
     ```bash
-    npm run build
+    npm run start
+    ```
 
 ## Deployemnt
 
    You can host and deploy the web application on [vercel](https://vercel.com/docs/deployments/overview) using the guide. 
 
 
+
+
+
 Thanks for checking out dot-portfolio! We hope you enjoy using it to showcase your work and skills.
 If you have any questions or encounter any issues, please don't hesitate to open an issue. We're here to help!
 
-Made with ❤️ by @gouravrajbit
+
+
+Made with ❤️ by [@gouravrajbit](https://github.com/gouravrajbit)
 
 
 
