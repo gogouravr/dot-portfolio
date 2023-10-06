@@ -17,7 +17,7 @@ export default function SocialMediaIcon({ type, iconSize }) {
 
     return (
         <span className='cursor-pointer opacity-80'>
-            <FontAwesomeIcon icon={icon} size={iconSize + 'x'} onClick={clickHandler} />
+            <FontAwesomeIcon icon={icon} fontSize={iconSize} onClick={clickHandler} />
         </span>
     )
 }
