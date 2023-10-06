@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import profile from '../profile.json';
 
-export default function SocialMediaIcon({ type }) {
+export default function SocialMediaIcon({ type, iconSize }) {
     const iconTypes = {
         'linkedin': faLinkedin,
         'github': faGithub,
@@ -17,7 +17,7 @@ export default function SocialMediaIcon({ type }) {
 
     return (
         <span className='cursor-pointer opacity-80'>
-            <FontAwesomeIcon icon={icon} size='2x' onClick={clickHandler} />
+            <FontAwesomeIcon icon={icon} size={iconSize + 'x'} onClick={clickHandler} />
         </span>
     )
 }
