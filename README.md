@@ -1,6 +1,6 @@
 # dot-portfolio
 
-![Portfolio Website Screenshot](https://your-image-url-here.com)
+![Portfolio Website Screenshot](https://gouravraj.in/home-screen-shot.png)
 
 Create your personalized portfolio website with ease using ReactJS and Tailwind CSS.
 
@@ -15,7 +15,6 @@ This is a portfolio website built with ReactJS and styled using Tailwind CSS. Th
 - Fully responsive design
 - Easy customization through `profile.json`
 - Sleek and modern UI
-- Seamless integration with Font Awesome
 - Automatic deployment and hosting on Vercel
 
 ## Project Setup
@@ -27,3 +26,32 @@ Follow these steps to set up and customize your portfolio website:
    ```bash
    git clone https://github.com/yourusername/dot-portfolio.git
    cd dot-portfolio
+
+2. **Install Dependencies**
+
+    ```bash
+    npm install
+
+3. **Edit profile.json**
+
+    Open the profile.json file in the project root directory and customize the fields.
+
+4. **Run Locally**
+
+    ```bash
+    npm run build
+
+## Deployemnt
+
+   You can host and deploy the web application on [vercel](https://vercel.com/docs/deployments/overview) using the guide. 
+
+
+Thanks for checking out dot-portfolio! We hope you enjoy using it to showcase your work and skills.
+If you have any questions or encounter any issues, please don't hesitate to open an issue. We're here to help!
+
+Made with ❤️ by @gouravrajbit
+
+
+
+
+
