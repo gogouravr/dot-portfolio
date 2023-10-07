@@ -14,22 +14,22 @@ export default function Navbar() {
             </h1>
             <ul className='text-white items-center font-normal hidden md:gap-2 lg:gap-4 xl:gap-6 md:flex'>
                 <li className='font-thin cursor-pointer hover:text-sky-400 ease-in-out duration-100 opacity-85 ml-10 lg:ml-0'>
-                    <a href='#about' className='md:px-1 lg:px-3 md:py-2 rounded focus:outline-dashed focus:outline-2 focus:outline-sky-400'>
+                    <a href='#about' className='md:px-1 lg:px-3 md:py-2 rounded focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-sky-400'>
                         About
                     </a>
                 </li>
                 <li className='font-thin cursor-pointer hover:text-sky-400 ease-in-out duration-100 opacity-85'>
-                    <a href='#experience' className='md:px-1 lg:px-3 md:py-2 rounded focus:outline-dashed focus:outline-2 focus:outline-sky-400'>
+                    <a href='#experience' className='md:px-1 lg:px-3 md:py-2 rounded focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-sky-400'>
                         Experience
                     </a>
                 </li>
                 <li className='font-thin cursor-pointer hover:text-sky-400 ease-in-out duration-100 opacity-85'>
-                    <a href='#projects' className='md:px-1 lg:px-3 md:py-2 rounded focus:outline-dashed focus:outline-2 focus:outline-sky-400'>
+                    <a href='#projects' className='md:px-1 lg:px-3 md:py-2 rounded focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-sky-400'>
                         Projects
                     </a>
                 </li>
                 <li className='font-thin cursor-pointer hover:text-sky-400 ease-in-out duration-100 opacity-85'>
-                    <a href='#contact' className='md:px-1 lg:px-3 md:py-2 rounded focus:outline-dashed focus:outline-2 focus:outline-sky-400'>
+                    <a href='#contact' className='md:px-1 lg:px-3 md:py-2 rounded focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-sky-400'>
                         Contact
                     </a>
                 </li>
