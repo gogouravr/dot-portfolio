@@ -14,8 +14,8 @@ function App() {
       <main>
         <Home />
         <About />
-
       </main>
+
       {/* <BlurMousePointer /> */}
     </div>
   );

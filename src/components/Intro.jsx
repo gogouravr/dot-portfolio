@@ -6,13 +6,13 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Intro() {
-    // If the screen width is less than 800px, considering it as mobile
+    // If the screen width is less than 800px then consider the screen as mobile
     const isMobileScreen = window.innerWidth < 800;
     console.log(isMobileScreen);
 
     return (
         <section className="flex flex-col justify-center mt-8 sm:mt-10 mx-auto w-11/12 sm:w-10/12 md:w-9/12 lg:w-8/12">
-            <div className="text-sky-600 font-normal mt-20 mb-2 text-base sm:text-lg md:text-2xl">
+            <div className="text-sky-600 font-[1] font-normal mt-20 mb-2 text-base sm:text-lg md:text-2xl">
                 👋 Hi, my name is
             </div>
 
@@ -42,7 +42,7 @@ export default function Intro() {
             <div className="mt-5 sm:mt-8">
                 <PrimaryButton>
                     <span className="text-sm md:text-base lg:text-lg">
-                        Say back hello!
+                        Say hello!
                     </span>
                 </PrimaryButton>
             </div>
