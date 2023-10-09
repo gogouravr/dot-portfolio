@@ -9,6 +9,10 @@ module.exports = {
       'high-l': ['Calibre', 'Inter', 'San Francisco', 'SF Pro Text', '-apple-system', 'system-ui', 'sans-serif'],
       'normal': ['SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', 'monospace']
     },
+    listStyleType: {
+      square: 'square',
+      roman: 'upper-roman'
+    },
     extend: {},
   },
   plugins: [],
