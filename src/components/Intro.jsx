@@ -12,7 +12,7 @@ export default function Intro() {
 
     return (
         <section className="flex flex-col justify-center mt-8 sm:mt-10 mx-auto w-11/12 sm:w-10/12 md:w-9/12 lg:w-8/12">
-            <div className="text-sky-600 font-[1] font-normal mt-20 mb-2 text-base sm:text-lg md:text-2xl">
+            <div className="text-sky-600 font-[1] font-normal mt-20 mb-2 text-base sm:text-lg md:text-2xl tracking-tighter">
                 👋 Hi, my name is
             </div>
 
@@ -24,8 +24,12 @@ export default function Intro() {
                 {profile.intros[0]}
             </p>
 
-            <p className='text-white font-thin font-sans opacity-83 w-3/4 my-6 lg:w-2/3 text-base sm:text-lg md:text-xl'>
-                {profile.bio}
+            <p className='text-white font-thin font-sans opacity-83 w-3/4 my-6 lg:w-2/3 text-base sm:text-base md:text-[1.29rem] tracking-wide' >
+                {profile.bio[0]}
+                <a href="https://swym.it" className="font-light font-normal rounded text-sky-500 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-sky-400">
+                    {profile.bio[1]}
+                </a>
+                {profile.bio[2]}
             </p>
 
             {profile.wip && !isMobileScreen &&

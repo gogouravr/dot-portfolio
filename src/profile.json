@@ -10,7 +10,11 @@
     "intros": [
         "I am a Full-Stack Developer"
     ],
-    "bio": "I've built services from the ground up, developing robust backends and designing captivating UI/UX interfaces.",
+    "bio": [
+        "I build services from the ground up, developing robust backends and designing elegant and responsive UI/UX interfaces. I solve problems in e-commerce ecosystem and reduce shopper friction at ",
+        "Swym",
+        "."
+    ],
     "wip": true,
     "wip-text": "This web app is under work in progress as I work on it during weekends. You can track the project progress at ",
     "project-link": "https://github.com/gouravrajbit/dot-portfolio"
