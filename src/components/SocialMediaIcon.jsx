@@ -13,11 +13,10 @@ export default function SocialMediaIcon({ type, iconSize }) {
 
     const icon = iconTypes[type];
     const URL = profile['social-media-links'][type];
-    const clickHandler = () => window.open(URL, '_blank');
 
     return (
-        <span className='cursor-pointer opacity-80'>
-            <FontAwesomeIcon icon={icon} fontSize={iconSize} onClick={clickHandler} />
-        </span>
+        <a href={URL} target='_blank' rel='noreferrer' className='cursor-pointer opacity-80 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-sky-400 rounded px-1 py-1'>
+            <FontAwesomeIcon icon={icon} fontSize={iconSize} />
+        </a>
     )
 }

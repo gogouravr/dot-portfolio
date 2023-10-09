@@ -10,8 +10,30 @@
     "intros": [
         "I am a Full-Stack Developer"
     ],
-    "bio": "I've built services from the ground up, developing robust backends and designing captivating UI/UX interfaces.",
+    "bio": [
+        "I build services from the ground up, developing robust backends and designing elegant and responsive UI/UX interfaces. I solve problems present in e-commerce ecosystem and reduce shopper friction at ",
+        "Swym",
+        "."
+    ],
     "wip": true,
     "wip-text": "This web app is under work in progress as I work on it during weekends. You can track the project progress at ",
-    "project-link": "https://github.com/gouravrajbit/dot-portfolio"
+    "project-link": "https://github.com/gouravrajbit/dot-portfolio",
+    "about-text": [
+        "Hello! My name is Gourav and I love building software that solves real world problems. Engineering has been a passion of mine since childhood, and I've made my way into the field of software engineering.",
+        "I am based out of Ranchi, Jharkhand, India and have pursued my Graduation from ",
+        "Birla Institue of Technology, Mesra",
+        " with 8.33 GPA.",
+        "My main focus these days is building solutions for e-commerce and enhance it's experience for shoppers and merchants at ",
+        "Swym",
+        ".",
+        "Outside of my professional commitments, I engage in web application development to both refine my technical skills and stay updated with emerging technologies in the industry. Additionally, I participate in hackathons, earning recognition and prizes for my contributions. More recently, I have also begun contributing to open source projects"
+    ],
+    "skills": [
+        "Typescript",
+        "Clojure",
+        "NodeJS",
+        "React",
+        "JavaScript (ES6+)",
+        "C/C++"
+    ]
 }
