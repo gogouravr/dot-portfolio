@@ -11,7 +11,7 @@ export default function Intro() {
     console.log(isMobileScreen);
 
     return (
-        <section className="flex flex-col justify-center mt-8 sm:mt-10 mx-auto w-11/12 sm:w-10/12 md:w-9/12 lg:w-8/12">
+        <section className="flex flex-col justify-center mt-2 sm:mt-15 mx-auto w-11/12 sm:w-10/12 md:w-9/12 lg:w-8/12">
             <div className="text-sky-500 font-[1] font-normal mt-20 mb-2 text-base sm:text-lg md:text-2xl tracking-tighter">
                 👋 Hi, my name is
             </div>
