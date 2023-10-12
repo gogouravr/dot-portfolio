@@ -46,7 +46,7 @@ export default function Intro() {
             <div className="mt-5 sm:mt-8">
                 <PrimaryButton>
                     <a href="mailto:gouravr244@gmail.com" className="text-sm md:text-base lg:text-lg">
-                        Say hello!
+                        Say hello to me!
                     </a>
                 </PrimaryButton>
             </div>
