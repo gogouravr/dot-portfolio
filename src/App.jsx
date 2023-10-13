@@ -2,6 +2,7 @@
 import Navbar from './components/Navbar/Navbar.jsx';
 import Home from './screens/Home.jsx';
 import About from './screens/About.jsx';
+import Experience from './screens/Experience.jsx';
 // import BlurMousePointer from './components/BlurMouseCursor.jsx'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <main>
         <Home />
         <About />
+        <Experience />
       </main>
 
       {/* <BlurMousePointer /> */}
