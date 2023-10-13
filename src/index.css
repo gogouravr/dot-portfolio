@@ -34,16 +34,16 @@
 
 @media (min-width: 1024px) {
 
-    .hor-bar::before {
-        content: "";
+    .hor-bar::after {
         /* Create an empty pseudo-element */
+        content: "";
         position: absolute;
         top: 17px;
         width: auto;
         height: 1px;
         width: 15rem;
         display: block;
-        margin-left: 13rem;
+        margin-left: 14rem;
         background-color: white;
         opacity: 0.5;
     }
