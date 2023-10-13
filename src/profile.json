@@ -35,5 +35,22 @@
         "React",
         "JavaScript (ES6+)",
         "C/C++"
+    ],
+    "experience": [
+        {
+            "name": "Swym",
+            "url": "swym.it",
+            "role": "Associate Software Engineer",
+            "start": "Jan 2022",
+            "end": "Present",
+            "paras": [
+                "Currently contributing to the development of scalable service abstractions, empowering developers to seamlessly integrate third-party platform solutions and significantly enhancing overall application functionality.",
+                "Developed various Shopify apps, enhancing e-commerce for shoppers and merchants through seamless integration and customization.",
+                "Played a pivotal role in enhancing our company's Shopify apps by seamlessly integrating external platforms such as Gorgias CRM and Yotpo, boosting the app's functionality and offering merchants an enriched e-commerce experience.",
+                "Successfully automated a manual workflow, reducing app installation time from days to minutes.",
+                "Tasked with the responsibility of ensuring the smooth migration of data across different tiers and overseeing the efficient import of customer data into our systems.",
+                "Designed and implemented a customized tool automating the customer data import process, resulting in a substantial boost to the productivity of the customer support team."
+            ]
+        }
     ]
 }
