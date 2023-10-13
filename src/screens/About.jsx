@@ -17,7 +17,7 @@ export default function About() {
                     <img className='border-3 shadow-[0_0_20px_20px_rgba(14,165,233,0.80)] border-sky-500 opacity-80 rounded-full drop-shadow-2xl bg-slate-800' src="/gourav-raj-photo.png" alt={profile['first-name'] + ' ' + profile['last-name']} />
                 </figure>
 
-                <p className='font-sans font-[240] lg:w-2/3 opacity-80 mt-5 text-white text-lg lg:text-[1.1rem] tracking-tight flex flex-col gap-3'>
+                <p className='font-high-l font-[280] leading-6 lg:w-2/3 opacity-80 mt-5 text-white text-lg lg:text-[1.1rem] tracking-tight flex flex-col gap-3'>
                     <p>{profile['about-text'][0]}</p>
                     <p>{profile['about-text'][1]}
                         <a href='https://www.bitmesra.ac.in/' target='_blank' rel="noreferrer" className="text-sky-500 font-light">

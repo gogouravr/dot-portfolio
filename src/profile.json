@@ -40,9 +40,16 @@
         {
             "name": "Swym",
             "url": "swym.it",
+            "role": "Associate Software Engineer",
+            "start": "Jan 2022",
+            "end": "Present",
             "paras": [
-                " I have a strong background in Shopify app development and e-commerce enhancement, with a focus on seamless integration and customization for shoppers and merchants. I played a key role in improving our company's Shopify apps by integrating external platforms like Gorgias CRM and Yotpo, significantly enhancing the app's functionality and providing a better e-commerce experience for merchants. Notably, I successfully automated a time-consuming manual workflow, reducing app installation time from days to mere minutes. Additionally, I managed data migration and the efficient import of customer data across different tiers.",
-                "Furthermore, I am currently contributing to the development of scalable service abstractions that empower developers to seamlessly integrate third-party platform solutions, resulting in a substantial boost in overall application functionality. I also designed and implemented a customized tool to automate the customer data import process, greatly improving the productivity of the customer support team. Moreover, I tackled and resolved bugs in both frontend and backend services of the Wishlist Plus app, ensuring the seamless functionality of the systems."
+                "Currently contributing to the development of scalable service abstractions, empowering developers to seamlessly integrate third-party platform solutions and significantly enhancing overall application functionality.",
+                "Developed various Shopify apps, enhancing e-commerce for shoppers and merchants through seamless integration and customization.",
+                "Played a pivotal role in enhancing our company's Shopify apps by seamlessly integrating external platforms such as Gorgias CRM and Yotpo, boosting the app's functionality and offering merchants an enriched e-commerce experience.",
+                "Successfully automated a manual workflow, reducing app installation time from days to minutes.",
+                "Tasked with the responsibility of ensuring the smooth migration of data across different tiers and overseeing the efficient import of customer data into our systems.",
+                "Designed and implemented a customized tool automating the customer data import process, resulting in a substantial boost to the productivity of the customer support team."
             ]
         }
     ]
