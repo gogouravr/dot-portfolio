@@ -8,7 +8,7 @@ export default function TabContent({ content, skills }) {
         {content}
       </section>
 
-      <section className="flex gap-3 mt-5">
+      <section className="flex flex-wrap gap-3 mt-5">
         {skills.map(skill => <Badge>{skill}</Badge>)}
       </section>
     </div>
