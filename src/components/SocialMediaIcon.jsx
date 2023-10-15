@@ -16,7 +16,7 @@ export default function SocialMediaIcon({ type, iconSize }) {
 
     return (
         <a href={URL} target='_blank' rel='noreferrer' className='cursor-pointer opacity-80 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-sky-400 rounded px-1 py-1'>
-            <FontAwesomeIcon icon={icon} fontSize={iconSize} />
+            <FontAwesomeIcon icon={icon} fontSize={iconSize} className='transition ease-in-out duration-230 hover:-translate-y-2' />
         </a>
     )
 }
