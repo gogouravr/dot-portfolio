@@ -11,10 +11,14 @@ export default function Tab({ tabs }) {
     return tabs.find(tab => tab['id'] === activeTabId)['content'];
   }
 
+  const activeTabSkills = () => {
+    return tabs.find(tab => tab['id'] === activeTabId)['skills'];
+  }
+
   return (
     <div className='text-white'>
       <TabMenu tabs={tabs} activeTabId={activeTabId} setActiveTabId={setActiveTabId} />
-      <TabContent content={activeTabContent()} />
+      <TabContent content={activeTabContent()} skills={activeTabSkills()} />
     </div>
   )
 }
