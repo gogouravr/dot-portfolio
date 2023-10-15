@@ -51,5 +51,28 @@
                 "Designed and implemented a customized tool automating the customer data import process, resulting in a substantial boost to the productivity of the customer support team."
             ]
         }
+    ],
+    "projects": [
+        {
+            "title": "Dot Portfolio",
+            "content": "A portfolio website built with ReactJS and styled using Tailwind CSS. The project is designed to be highly customizable, thanks to the profile.json file, which allows you to personalize various aspects of your portfolio, such as your name, domain, bio, and more. The website also incorporates Font Awesome icons to enhance its visual appeal.",
+            "skills": [
+                "React",
+                "Tailwind CSS",
+                "FontAwesome",
+                "HTML/CSS"
+            ]
+        },
+        {
+            "title": "Buyz Ecommerce Platform",
+            "content": "A web-based platform that allows vendors to sell their products and buyers to purchase products. It's built with TypeScript for the backend and React for the frontend, providing a seamless and user-friendly e-commerce experience.",
+            "skills": [
+                "Typescript",
+                "Node JS",
+                "Postgres SQL",
+                "React",
+                "SCSS"
+            ]
+        }
     ]
 }
