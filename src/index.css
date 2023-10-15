@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth
+}
 
 .pointer {
     position: absolute;
@@ -47,4 +50,25 @@
         background-color: white;
         opacity: 0.5;
     }
+}
+
+nav a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(14 165 233 / var(--tw-text-opacity));
+    bottom: -2px;
+    left: 0;
+    transform: scaleX(0);
+    /* Start with no width */
+    transform-origin: center;
+    /* Start the animation from the center */
+    transition: transform 0.3s ease-in-out;
+}
+
+nav a:hover::before {
+    transform: scaleX(0.8);
+    /* Expand the underline to full width on hover */
 }
