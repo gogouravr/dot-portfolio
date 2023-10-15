@@ -3,7 +3,7 @@ import Badge from '../Badge.jsx'
 
 export default function TabContent({ content, skills }) {
   return (
-    <div className='font-high-l font-[280] leading-6 mt-6 h-40'>
+    <div className='font-high-l font-[280] leading-6 mt-6'>
       <section>
         {content}
       </section>
