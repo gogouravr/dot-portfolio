@@ -16,7 +16,7 @@ export default function Tab({ tabs }) {
   }
 
   return (
-    <div className='text-white'>
+    <div>
       <TabMenu tabs={tabs} activeTabId={activeTabId} setActiveTabId={setActiveTabId} />
       <TabContent content={activeTabContent()} skills={activeTabSkills()} />
     </div>

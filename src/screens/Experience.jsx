@@ -25,7 +25,7 @@ export default function Experience() {
                             <span> - </span>
                             <span>{organisation['end']}</span>
                         </div>
-                        {organisation['paras'].map(para => <p className='font-high-l mt-3 dark:font-[280] font-[400] leading-6'>{para}</p>)}
+                        {organisation['paras'].map(para => <p className='font-high-l mt-3 dark:font-[280] font-[399] leading-6'>{para}</p>)}
                     </div>
                 )}
 
