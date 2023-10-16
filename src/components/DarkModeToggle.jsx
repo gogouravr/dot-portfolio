@@ -10,7 +10,7 @@ export default function DarkModeToggle() {
     };
 
     return (
-        <div>
+        <div className='fixed'>
             <input type="checkbox" checked={!darkMode} onChange={toggleDarkMode} />
         </div>
     )
