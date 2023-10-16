@@ -13,22 +13,22 @@ export default function Navbar() {
                 gouravraj<span className="text-sky-500">.</span>in
             </h1>
             <ul className='dark:text-white text-slate-900  md:flex items-center font-normal hidden md:gap-2 lg:gap-4 xl:gap-6 opacity-85'>
-                <li className='font-thin cursor-pointer hover:text-sky-400 ease-in-out duration-100 ml-5 lg:ml-0'>
+                <li className='font-thin cursor-pointer dark:hover:text-sky-400 hover:text-sky-600 ease-in-out duration-100 ml-5 lg:ml-0'>
                     <a href='#about' className='relative md:px-1 lg:px-3 md:py-2 rounded focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-sky-400'>
                         About
                     </a>
                 </li>
-                <li className='font-thin cursor-pointer hover:text-sky-400 ease-in-out duration-100'>
+                <li className='font-thin cursor-pointer dark:hover:text-sky-400 hover:text-sky-600 ease-in-out duration-100'>
                     <a href='#experience' className='relative md:px-1 lg:px-3 md:py-2 rounded focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-sky-400'>
                         Experience
                     </a>
                 </li>
-                <li className='font-thin cursor-pointer hover:text-sky-400 ease-in-out duration-100'>
+                <li className='font-thin cursor-pointer dark:hover:text-sky-400 hover:text-sky-600 ease-in-out duration-100'>
                     <a href='#projects' className='relative md:px-1 lg:px-3 md:py-2 rounded focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-sky-400'>
                         Projects
                     </a>
                 </li>
-                <li className='font-thin cursor-pointer hover:text-sky-400 ease-in-out duration-100'>
+                <li className='font-thin cursor-pointer dark:hover:text-sky-400 hover:text-sky-600 ease-in-out duration-100'>
                     <a href='#contact' className='relative md:px-1 lg:px-3 md:py-2 rounded focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-sky-400'>
                         Contact
                     </a>
