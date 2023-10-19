@@ -10,8 +10,10 @@ export default function DarkModeToggle() {
     };
 
     return (
-        <div className='fixed'>
-            <input type="checkbox" checked={!darkMode} onChange={toggleDarkMode} />
+        <div className='fixed right-2 top-40'>
+            <input className='hidden' id="switch" type="checkbox" checked={!darkMode} onChange={toggleDarkMode} />
+            <label htmlFor="switch" className='bg-sky-200 w-14 hidden sm:block h-7 rounded-3xl cursor-pointer'>
+            </label>
         </div>
     )
 }
