@@ -10,7 +10,7 @@ import DarkModeToggle from './components/DarkModeToggle.jsx'
 
 function App() {
   return (
-    <div className="bg-slate-100 dark:bg-slate-900">
+    <div className="bg-slate-100 dark:bg-slate-900" id='root-content'>
       <DarkModeToggle />
       <header>
         <Navbar />
