@@ -6,7 +6,7 @@ import profile from '../profile.json';
 export default function Contact() {
     const { email } = profile;
     return (
-        <div id='contact' className='mt-18 h-[130px] sm:h-[200px] md:h-[250px] bg-sky-600 w-[100%] text-center text-slate-300 text-high-l flex flex-col justify-center'>
+        <div id='contact' className='mt-18 h-[130px] sm:h-[200px] md:h-[250px] dark:bg-sky-600 bg-sky-500 w-[100%] text-center dark:text-slate-300 text-slate-100 text-high-l flex flex-col justify-center'>
             <p className='text-[15px] sm:text-[20px] md:text-[25px]'>
                 <FontAwesomeIcon icon={faPaperPlane} className='mr-3' />
                 drop me an e-mail at &nbsp;
