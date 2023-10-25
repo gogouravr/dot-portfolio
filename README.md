@@ -1,6 +1,7 @@
 # dot-portfolio
 
-![Portfolio Website Screenshot](https://gouravraj.in/home-screen-shot.png)
+![Portfolio Website Screenshot](https://gouravraj.in/home-screen-light.png)
+![Portfolio Website Screenshot](https://gouravraj.in/home-screen-dark.png)
 
 Create your personalized portfolio website with ease using ReactJS and Tailwind CSS.
 
@@ -12,7 +13,8 @@ A dark and light themed portfolio website built with ReactJS and styled using Ta
 
 ### Features
 
-- Dark and Light Them
+- Dark and Light Theme
+- Follows web accessibility standards
 - Fully responsive design
 - Easy customization through `profile.json`
 - Sleek and modern UI
