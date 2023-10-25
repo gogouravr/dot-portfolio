@@ -8,7 +8,7 @@ Create your personalized portfolio website with ease using ReactJS and Tailwind 
 
 ## Overview
 
-This is a portfolio website built with ReactJS and styled using Tailwind CSS. The project is designed to be highly customizable, thanks to the `profile.json` file, which allows you to personalize various aspects of your portfolio, such as your name, domain, bio, and more. The website also incorporates Font Awesome icons to enhance its visual appeal.
+A dark and light themed portfolio website built with ReactJS and styled using Tailwind CSS. The project is designed to be highly customizable with least amount of code alteration. The `profile.json` file  allows you to personalize various aspects of your portfolio, such as your name, domain, bio, and more. 
 
 ### Features
 
