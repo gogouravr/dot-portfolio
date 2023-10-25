@@ -12,6 +12,7 @@ A dark and light themed portfolio website built with ReactJS and styled using Ta
 
 ### Features
 
+- Dark and Light Them
 - Fully responsive design
 - Easy customization through `profile.json`
 - Sleek and modern UI
