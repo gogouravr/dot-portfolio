@@ -12,7 +12,7 @@ import DarkModeToggle from './components/DarkModeToggle.jsx'
 function App() {
   return (
     <div className="bg-slate-100 dark:bg-slate-900" id='root-content'>
-      <PageContext.Provider>
+      <PageContext.Provider value={{ screen: 'desktop' }}>
         <DarkModeToggle />
         <header>
 
