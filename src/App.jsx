@@ -1,3 +1,4 @@
+import { PageContext } from './components/PageContext.jsx';
 // import WIP from './components/WIP';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Home from './screens/Home.jsx';
@@ -11,23 +12,26 @@ import DarkModeToggle from './components/DarkModeToggle.jsx'
 function App() {
   return (
     <div className="bg-slate-100 dark:bg-slate-900" id='root-content'>
-      <DarkModeToggle />
-      <header>
-        <Navbar />
-      </header>
+      <PageContext.Provider>
+        <DarkModeToggle />
+        <header>
 
-      <main>
-        <Home />
-        <About />
-        <Experience />
-        <Projects />
-      </main>
+          <Navbar />
+        </header>
 
-      <footer>
-        <Contact />
-      </footer>
+        <main>
+          <Home />
+          <About />
+          <Experience />
+          <Projects />
+        </main>
 
-      {/* <BlurMousePointer /> */}
+        <footer>
+          <Contact />
+        </footer>
+
+        {/* <BlurMousePointer /> */}
+      </PageContext.Provider>
     </div>
   );
 }
