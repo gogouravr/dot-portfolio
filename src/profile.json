@@ -63,7 +63,8 @@
                 "Vercel",
                 "FontAwesome",
                 "HTML/CSS"
-            ]
+            ],
+            "link": "https://github.com/gouravrajbit/dot-portfolio"
         },
         {
             "title": "Buyz Ecommerce Platform",
@@ -75,7 +76,8 @@
                 "Postgres SQL",
                 "Next JS",
                 "SASS"
-            ]
+            ],
+            "link": "https://github.com/gouravrajbit/buyz-ecom-platform"
         }
     ]
 }
