@@ -56,22 +56,24 @@
     "projects": [
         {
             "title": "Dot Portfolio",
-            "content": "A portfolio website built with ReactJS and styled using Tailwind CSS. The project is designed to be highly customizable, thanks to the profile.json file, which allows you to personalize various aspects of your portfolio, such as your name, domain, bio, and more. The website also incorporates Font Awesome icons to enhance its visual appeal.",
+            "content": "A dark and light themed portfolio website built with ReactJS and styled using Tailwind CSS. The project is designed to be highly customizable leveraging profile.json file which allows you to personalize various aspects of your portfolio, such as your name, domain, bio, and more. It follows web accessibility standards with fully responsive design. Vercel is used for it's deployment and hosting.",
             "skills": [
-                "React",
+                "React JS",
                 "Tailwind CSS",
+                "Vercel",
                 "FontAwesome",
                 "HTML/CSS"
             ]
         },
         {
             "title": "Buyz Ecommerce Platform",
-            "content": "A web-based platform that allows vendors to sell their products and buyers to purchase products. It's built with TypeScript for the backend and React for the frontend, providing a seamless and user-friendly e-commerce experience.",
+            "content": "A web-based platform that allows vendors to sell their products and buyers to purchase products. It's built with Node JS (TypeScript) for the backend and Next JS (Typescript) for the frontend, providing a seamless and user-friendly e-commerce experience.",
             "skills": [
                 "Typescript",
                 "Node JS",
+                "Prisma",
                 "Postgres SQL",
-                "React",
+                "Next JS",
                 "SASS"
             ]
         }
