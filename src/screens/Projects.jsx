@@ -15,7 +15,7 @@ export default function Projects() {
             </h2>
 
 
-            <section className='font-sans font-[240] lg:w-2/3 opacity-80 mt-5 text-base lg:text-[1.1rem] tracking-normal h-96 mb-5 sm:mb-0 sm:h-80'>
+            <section className='font-sans font-[240] lg:w-2/3 opacity-80 mt-5 text-base lg:text-[1.1rem] tracking-normal h-96 mb-5 sm:mb-0 sm:h-[22rem]'>
 
                 <Tabs tabs={profile['projects'].map((project, idx) => ({ ...project, id: idx }))} />
             </section>
