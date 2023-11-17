@@ -15,10 +15,14 @@ export default function Tab({ tabs }) {
     return tabs.find(tab => tab['id'] === activeTabId)['skills'];
   }
 
+  const activeTabLink = () => {
+    return tabs.find(tab => tab['id'] === activeTabId)['link'];
+  }
+
   return (
     <div>
       <TabMenu tabs={tabs} activeTabId={activeTabId} setActiveTabId={setActiveTabId} />
-      <TabContent content={activeTabContent()} skills={activeTabSkills()} />
+      <TabContent content={activeTabContent()} hyperlink={activeTabLink()} skills={activeTabSkills()} />
     </div>
   )
 }
