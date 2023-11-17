@@ -9,7 +9,7 @@
         "instagram": "https://www.instagram.com/gourav_raj_/"
     },
     "intros": [
-        "I am a Full-Stack Developer"
+        "I am a Software Developer"
     ],
     "bio": [
         "I build services from the ground up, developing robust backends and designing elegant and responsive UI/UX interfaces. I build solutions for e-commerce ecosystem and reduce shopper friction at ",
@@ -56,23 +56,29 @@
     "projects": [
         {
             "title": "Dot Portfolio",
-            "content": "A portfolio website built with ReactJS and styled using Tailwind CSS. The project is designed to be highly customizable, thanks to the profile.json file, which allows you to personalize various aspects of your portfolio, such as your name, domain, bio, and more. The website also incorporates Font Awesome icons to enhance its visual appeal.",
+            "content": "A dark & light themed responsive portfolio website built with ReactJS and styled using Tailwind CSS. The project is designed to be highly customizable, by using the profile.json file, which allows to personalize various profile aspects of the portfolio, such as name, domain, bio, and more. It's built keeping in mind the SEO and web accessibility standards.",
             "skills": [
                 "React",
                 "Tailwind CSS",
-                "FontAwesome",
-                "HTML/CSS"
+                "Dark/Light Themed",
+                "Web Accessibility",
+                "SEO",
+                "HTML/CSS",
+                "FontAwesome"
             ]
         },
         {
             "title": "Buyz Ecommerce Platform",
-            "content": "A web-based platform that allows vendors to sell their products and buyers to purchase products. It's built with TypeScript for the backend and React for the frontend, providing a seamless and user-friendly e-commerce experience.",
+            "content": "A web-based e-commerce marketplace platform that allows vendors to sell their products and buyers to purchase products. It's built with Node JS + TypeScript for the backend and React JS for the frontend, providing a seamless and user-friendly e-commerce experience.",
             "skills": [
                 "Typescript",
                 "Node JS",
                 "Postgres SQL",
-                "React",
-                "SASS"
+                "React JS",
+                "SASS",
+                "React Router DOM",
+                "Routing-Controllers",
+                "Express"
             ]
         }
     ]
