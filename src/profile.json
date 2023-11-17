@@ -9,7 +9,7 @@
         "instagram": "https://www.instagram.com/gourav_raj_/"
     },
     "intros": [
-        "I am a Full-Stack Developer"
+        "I am a Software Developer"
     ],
     "bio": [
         "I build services from the ground up, developing robust backends and designing elegant and responsive UI/UX interfaces. I build solutions for e-commerce ecosystem and reduce shopper friction at ",
@@ -56,26 +56,32 @@
     "projects": [
         {
             "title": "Dot Portfolio",
-            "content": "A dark and light themed portfolio website built with ReactJS and styled using Tailwind CSS. The project is designed to be highly customizable leveraging profile.json file which allows you to personalize various aspects of your portfolio, such as your name, domain, bio, and more. It follows web accessibility standards with fully responsive design. Vercel is used for it's deployment and hosting.",
+            "content": "A dark & light themed responsive portfolio website built with ReactJS and styled using Tailwind CSS. The project is designed to be highly customizable, by using the profile.json file, which allows to personalize various profile aspects of the portfolio, such as name, domain, bio, and more. It's built keeping in mind the SEO and web accessibility standards.",
             "skills": [
                 "React JS",
                 "Tailwind CSS",
                 "Vercel",
-                "FontAwesome",
-                "HTML/CSS"
+                "Dark/Light Themed",
+                "Web Accessibility",
+                "SEO",
+                "HTML/CSS",
+                "FontAwesome"
             ],
             "link": "https://github.com/gouravrajbit/dot-portfolio"
         },
         {
             "title": "Buyz Ecommerce Platform",
-            "content": "A web-based platform that allows vendors to sell their products and buyers to purchase products. It's built with Node JS (TypeScript) for the backend and Next JS (Typescript) for the frontend, providing a seamless and user-friendly e-commerce experience.",
+            "content": "A web-based e-commerce marketplace platform that allows vendors to sell their products and buyers to purchase products. It's built with Node JS + TypeScript for the backend and React JS for the frontend, providing a seamless and user-friendly e-commerce experience.",
             "skills": [
                 "Typescript",
                 "Node JS",
                 "Prisma",
                 "Postgres SQL",
-                "Next JS",
-                "SASS"
+                "React JS",
+                "SASS",
+                "React Router DOM",
+                "Routing-Controllers",
+                "Express JS"
             ],
             "link": "https://github.com/gouravrajbit/buyz-ecom-platform"
         }
