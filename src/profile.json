@@ -55,21 +55,6 @@
     ],
     "projects": [
         {
-            "title": "Dot Portfolio",
-            "content": "A dark & light themed responsive portfolio website built with ReactJS and styled using Tailwind CSS. The project is designed to be highly customizable, by using the profile.json file, which allows to personalize various profile aspects of the portfolio, such as name, domain, bio, and more. It's built keeping in mind the SEO and web accessibility standards.",
-            "skills": [
-                "React JS",
-                "Tailwind CSS",
-                "Vercel",
-                "Dark/Light Themed",
-                "Web Accessibility",
-                "SEO",
-                "HTML/CSS",
-                "FontAwesome"
-            ],
-            "link": "https://github.com/gouravrajbit/dot-portfolio"
-        },
-        {
             "title": "Buyz Ecommerce Platform",
             "content": "A web-based e-commerce marketplace platform that allows vendors to sell their products and buyers to purchase products. It's built with Node JS + TypeScript for the backend and React JS for the frontend, providing a seamless and user-friendly e-commerce experience.",
             "skills": [
@@ -84,6 +69,21 @@
                 "Express JS"
             ],
             "link": "https://github.com/gouravrajbit/buyz-ecom-platform"
+        },
+        {
+            "title": "Dot Portfolio",
+            "content": "A dark & light themed responsive portfolio website built with ReactJS and styled using Tailwind CSS. The project is designed to be highly customizable, by using the profile.json file, which allows to personalize various profile aspects of the portfolio, such as name, domain, bio, and more. It's built keeping in mind the SEO and web accessibility standards.",
+            "skills": [
+                "React JS",
+                "Tailwind CSS",
+                "Vercel",
+                "Dark/Light Themed",
+                "Web Accessibility",
+                "SEO",
+                "HTML/CSS",
+                "FontAwesome"
+            ],
+            "link": "https://github.com/gouravrajbit/dot-portfolio"
         }
     ]
 }
