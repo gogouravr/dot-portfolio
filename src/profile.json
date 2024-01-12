@@ -33,6 +33,7 @@
         "Typescript",
         "Clojure",
         "NodeJS",
+        "Python",
         "React",
         "JavaScript (ES6+)",
         "C/C++"
@@ -41,7 +42,7 @@
         {
             "name": "Swym",
             "url": "swym.it",
-            "role": "Associate Software Engineer",
+            "role": "Software Engineer",
             "start": "Jan 2022",
             "end": "Present",
             "paras": [
