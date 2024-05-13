@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react';
+
 import { PageContext } from './components/PageContext.jsx';
 // import WIP from './components/WIP';
 import Navbar from './components/Navbar/Navbar.jsx';
@@ -32,6 +34,7 @@ function App() {
 
         {/* <BlurMousePointer /> */}
       </PageContext.Provider>
+      <Analytics />
     </div>
   );
 }
