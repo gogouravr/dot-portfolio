@@ -26,7 +26,7 @@ export default function Intro() {
 
             <p className='text-slate-900 dark:text-white font-light dark:font-thin font-sans dark:opacity-82 w-3/4 my-6 lg:w-9/12 text-base sm:text-base md:text-[1.29rem] tracking-wide' >
                 {profile.bio[0]}
-                <a href="https://swym.it" className="font-light font-normal rounded text-sky-500 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-sky-400">
+                <a href="https://swym.it" target='_blank' rel='noreferrer' className="font-light font-normal rounded text-sky-500 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-sky-400">
                     {profile.bio[1]}
                 </a>
                 {profile.bio[2]}
