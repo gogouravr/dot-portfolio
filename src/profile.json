@@ -3,7 +3,7 @@
     "last-name": "Raj",
     "email": "gogouravr@gmail.com",
     "social-media-links": {
-        "github": "https://github.com/gouravrajbit",
+        "github": "https://github.com/gogouravr",
         "linkedin": "https://www.linkedin.com/in/gouravrajdev/",
         "twitter": "https://twitter.com/DRGGourav",
         "instagram": "https://www.instagram.com/gourav_raj_/"
@@ -18,7 +18,7 @@
     ],
     "wip": false,
     "wip-text": "This web app is under work in progress as I work on it mostly during weekends. You can track the project progress at ",
-    "project-link": "https://github.com/gouravrajbit/dot-portfolio",
+    "project-link": "https://github.com/gogouravr/dot-portfolio",
     "about-text": [
         "Hello! My name is Gourav and I love building software that solves real world problems. Engineering has been a passion of mine since childhood, and I've made my way into the field of software engineering.",
         "I am based out of Ranchi, Jharkhand, India and have pursued my Graduation from ",
@@ -70,7 +70,7 @@
                 "Routing-Controllers",
                 "Express JS"
             ],
-            "link": "https://github.com/gouravrajbit/buyz-ecom-platform"
+            "link": "https://github.com/gogouravr/buyz-ecom-platform"
         },
         {
             "title": "Dot Portfolio",
@@ -85,7 +85,7 @@
                 "HTML/CSS",
                 "FontAwesome"
             ],
-            "link": "https://github.com/gouravrajbit/dot-portfolio"
+            "link": "https://github.com/gogouravr/dot-portfolio"
         }
     ]
 }
