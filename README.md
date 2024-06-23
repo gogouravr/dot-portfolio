@@ -60,7 +60,7 @@ If you have any questions or encounter any issues, please don't hesitate to open
 
 
 
-Made with ❤️ by [@gouravrajbit](https://github.com/gouravrajbit)
+Made with ❤️ by [@gogouravr](https://github.com/gogouravr)
 
 
 
