@@ -15,7 +15,7 @@ export default function Experience() {
 
             {/* <section className='flex flex-col lg:flex-row md:gap-8 lg:gap-12 justify-center items-center lg:items-start mt-8 a sm:mt-10 mx-auto w-11/12 sm:w-10/12 md:w-9/12 lg:w-11/12'> */}
 
-            <section className='font-sans font-[240] lg:w-2/3 dark:opacity-80 mt-5 text-base lg:text-[1.1rem] tracking-normal'>
+            <section className='font-sans font-[240] flex flex-col gap-8 lg:w-2/3 dark:opacity-80 mt-5 text-base lg:text-[1.1rem] tracking-normal'>
                 {profile['experience'].map(organisation =>
                     <div>
                         <h3 className='text-xl md:text-2xl font-normal text-sky-500'><a href={organisation.url} target='_blank' rel='noreferrer'>{organisation['name']}</a></h3>
