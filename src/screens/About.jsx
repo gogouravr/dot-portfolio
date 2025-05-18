@@ -28,7 +28,7 @@ export default function About() {
                         {profile['about-text'][3]}
                     </p>
                     <p>{profile['about-text'][4]}
-                        <a href='https://swym.it/' target='_blank' rel="noreferrer" className="text-sky-500 dark:font-light font-[400]">
+                        <a href='https://www.faeththerapeutics.com/' target='_blank' rel="noreferrer" className="text-sky-500 dark:font-light font-[400]">
                             {profile['about-text'][5]}
                         </a>
                         {profile['about-text'][6]}
