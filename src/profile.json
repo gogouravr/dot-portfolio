@@ -12,8 +12,8 @@
         "I am a Software Developer"
     ],
     "bio": [
-        "I build services from the ground up, developing robust backends and designing elegant and responsive UI/UX interfaces. I build solutions for e-commerce ecosystem and reduce shopper friction at ",
-        "Swym",
+        "I build services from the ground up, developing robust backends and designing elegant and responsive UI/UX interfaces. I build solutions for clinical trial studies at ",
+        "Faeth",
         "."
     ],
     "wip": false,
@@ -24,25 +24,35 @@
         "I am based out of Ranchi, Jharkhand, India and have pursued my Graduation from ",
         "Birla Institue of Technology, Mesra",
         " with 8.33 GPA.",
-        "My main focus these days is building solutions for e-commerce and enhance it's experience for shoppers and merchants at ",
-        "Swym",
+        "My main focus these days is building solutions for clinical trial studies at ",
+        "Faeth",
         ".",
         "Outside of my professional commitments, I engage in web application development to both refine my technical skills and stay updated with emerging technologies in the industry. Additionally, I participate in hackathons, earning recognition and prizes for my contributions. More recently, I have also begun contributing to open source projects."
     ],
     "skills": [
         "Typescript",
+        "Python",
         "Clojure",
         "NodeJS",
-        "Python",
-        "Java",
         "React",
         "JavaScript (ES6+)",
         "C/C++"
     ],
     "experience": [
         {
+            "name": "Faeth",
+            "url": "https://www.faeththerapeutics.com/",
+            "role": "Software Engineer",
+            "start": "Jan 2022",
+            "end": "Present",
+            "paras": [
+                "Built GraphQL APIs and screens for various features such as patient surveys and food deliveries, enabling efficient data collection and analysis for personalized treatment using ReactJS, NodeJS with TypeScript, and AWS cloud.",
+                "Building a data platform to perform ETL and generate tables, listings, and figures (TLFs) to produce clinical study reports (CSRs), processing over billions of rows in support of clinical trials using AWS Glue, Athena & Terraform."
+            ]
+        },
+        {
             "name": "Swym",
-            "url": "swym.it",
+            "url": "https://www.swym.it/",
             "role": "Software Engineer",
             "start": "Jan 2022",
             "end": "Present",
